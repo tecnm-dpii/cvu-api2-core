@@ -1,0 +1,12 @@
+{
+    "name": "tecnm-dpii/cvu-api2-core",
+    "description": "Core elements of CVU API 2.",
+    "type": "library",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "TecNM_DPII\\CvuApi2Core\\" : "src"
+        }
+    },
+    "require": {}
+}
