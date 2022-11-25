@@ -5,73 +5,73 @@ namespace TecNM_DPII\CvuApi2Core\Models\Escolares;
 class Estudiante
 {
     /** @var int */
-    public $INST_ID;
+    public $id;
     /** @var int */
-    public $ID;
+    public $idInstitucion;
     /** @var string */
-    public $CURP;
+    public $curp;
     /** @var string */
-    public $MATRICULA_CONTROL;
+    public $matricula;
     /** @var string */
-    public $FECHA_NAC;
+    public $fechaNacimiento;
     /** @var string */
-    public $APELLIDO_PATERNO;
+    public $apellido1;
     /** @var string */
-    public $APELLIDO_MATERNO;
+    public $apellido2;
     /** @var string */
-    public $NOMBRES;
+    public $nombres;
     /** @var string */
-    public $GENERO;
+    public $genero;
     /** @var string */
-    public $EMAIL;
+    public $email;
     /** @var string */
-    public $NOMBRE_INSTITUCION;
+    public $institucionNombre;
     /** @var string */
-    public $NOMBRE_CORTO_INSTITUCION;
+    public $institucionNombreCorto;
     /** @var string */
-    public $TIPO_INSTITUCION;
+    public $institucionTipo;
     /** @var string */
-    public $ESTADO;
+    public $estado;
     /** @var string */
-    public $NOMBRE_CARRERA;
+    public $carreraNombre;
     /** @var string */
-    public $CLAVE_CARRERA;
+    public $carreraClave;
     /** @var int */
-    public $PROG_ID;
+    public $idPrograma;
     /** @var string */
-    public $MODALIDAD;
+    public $modalidad;
     /** @var int */
-    public $SEMESTRE;
+    public $semestre;
     /** @var string */
-    public $NOMBRE_TIPO_NIVEL_EDUCATIVO;
+    public $tipoNivelEducativoNombre;
     /** @var float */
-    public $PROMEDIO_ACTUAL;
+    public $promedioActual;
     /** @var float */
-    public $PROMEDIO_GENERAL;
+    public $promedioGeneral;
     /** @var int */
-    public $CREDITOS_ACUMULADOS;
+    public $creditosAcumulados;
     /** @var string */
-    public $INSCRIP_RESIDENCIAS;
+    public $residenciasCursando;
     /** @var string */
-    public $RFC;
+    public $rfc;
     /** @var string */
-    public $TELCELULAR;
+    public $celular;
     /** @var string */
-    public $PROGRAMA_RECONOCIDO;
+    public $programaReconocido;
     /** @var string */
-    public $SEGURO_ACCIDENTES;
+    public $seguroAccidentes;
     /** @var string */
-    public $DISCAPACIDAD;
+    public $discapacidad;
     /** @var string */
-    public $TIPO_DISCAPACIDAD;
+    public $discapacidadTipo;
     /** @var int|null */
-    public $ID_TIPO_DISCAPACIDAD;
+    public $idDiscapacidadTipo;
     /** @var null */
-    public $LENGUA_INDIGENA;
+    public $lenguaIndigena;
     /** @var int */
-    public $EDAD;
+    public $edad;
     /** @var string */
-    public $ESTADO_PROG;
+    public $programaEstado;
     /** @var string */
-    public $NIVEL;
+    public $nivel;
 }
