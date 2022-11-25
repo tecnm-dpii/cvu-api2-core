@@ -1,6 +1,6 @@
 <?php
 
-namespace TecNM_DPII\CvuApi2Core\Models;
+namespace TecNM_DPII\CvuApi2Core\Models\Catalogos;
 
 /**
  * @property-read Programa[] $programas
