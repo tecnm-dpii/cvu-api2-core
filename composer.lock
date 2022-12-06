@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b143da772ae27fb80e8a152951307702",
+    "packages": [
+        {
+            "name": "francerz/json-tools",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francerz/php-json-tools.git",
+                "reference": "97e6fbe49d2f0fafa5e328961af921074ad634c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/francerz/php-json-tools/zipball/97e6fbe49d2f0fafa5e328961af921074ad634c4",
+                "reference": "97e6fbe49d2f0fafa5e328961af921074ad634c4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Francerz\\JsonTools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "Tools for encoding and decoding json objects.",
+            "support": {
+                "issues": "https://github.com/francerz/php-json-tools/issues",
+                "source": "https://github.com/francerz/php-json-tools/tree/v0.1.0"
+            },
+            "time": "2022-12-06T16:09:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

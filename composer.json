@@ -8,5 +8,7 @@
             "TecNM_DPII\\CvuApi2Core\\" : "src"
         }
     },
-    "require": {}
+    "require": {
+        "francerz/json-tools": "^0.1.0"
+    }
 }
