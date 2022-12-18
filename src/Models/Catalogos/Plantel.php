@@ -10,6 +10,11 @@ use Francerz\JsonTools\JsonMappedInterface;
  */
 class Plantel implements JsonMappedInterface
 {
+    public const TIPO_DIRECCION_GENERAL = 'Dirección General';
+    public const TIPO_CENTRO_FEDERAL = 'Centro Federal';
+    public const TIPO_INSTITUTO_FEDERAL = 'Instituto Federal';
+    public const TIPO_DESCENTRALIZADO = 'Descentralizado';
+
     public $id_plantel;
     public $nombre;
     public $nombre_corto;
