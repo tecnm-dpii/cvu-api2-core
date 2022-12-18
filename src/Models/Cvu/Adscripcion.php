@@ -8,7 +8,7 @@ class Adscripcion
     public $id_persona;
     public $id_plantel;
     public $plantel;
-    public $tipo_plantel;
+    public $plantel_tipo;
     public $fecha_adscripcion;
     public $campus;
     public $edificio;

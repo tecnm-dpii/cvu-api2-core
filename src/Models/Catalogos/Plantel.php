@@ -21,6 +21,7 @@ class Plantel implements JsonMappedInterface
     public $nombre_corto;
     public $abreviatura;
     public $cct;
+    public $tipo;
 
     public static function getJsonMaps()
     {
