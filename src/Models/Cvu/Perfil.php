@@ -26,6 +26,7 @@ class Perfil implements JsonMappedInterface
             new JsonMap('apellido1'),
             new JsonMap('apellido2'),
             new JsonMap('fecha_nacimiento'),
+            new JsonMap('sexo'),
             new JsonMap('curp'),
             new JsonMap('rfc')
         ];
