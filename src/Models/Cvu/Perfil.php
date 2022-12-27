@@ -13,6 +13,7 @@ class Perfil implements JsonMappedInterface
     public $apellido1;
     public $apellido2;
     public $fecha_nacimiento;
+    public $sexo;
     public $curp;
     public $rfc;
 
