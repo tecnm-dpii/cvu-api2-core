@@ -5,10 +5,10 @@ namespace TecNM_DPII\CvuApi2Core\Models\Catalogos;
 use Francerz\JsonTools\JsonMap;
 use Francerz\JsonTools\JsonMappedInterface;
 
-class ProgramaEducactivo implements JsonMappedInterface
+class ProgramaEducativo implements JsonMappedInterface
 {
     public $id_programa;
-    public $id_grado;
+    public $id_nivel;
     public $nombre;
     public $abreviatura;
 
@@ -16,10 +16,9 @@ class ProgramaEducactivo implements JsonMappedInterface
     {
         return [
             new JsonMap('id_programa'),
-            new JsonMap('id_grado'),
+            new JsonMap('id_nivel'),
             new JsonMap('nombre'),
-            new JsonMap('abreviatura'),
-            new JsonMap('grado')
+            new JsonMap('abreviatura')
         ];
     }
 }
