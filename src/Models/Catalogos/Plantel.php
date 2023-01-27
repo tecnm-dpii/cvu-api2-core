@@ -30,7 +30,8 @@ class Plantel implements JsonMappedInterface
             new JsonMap('nombre'),
             new JsonMap('nombre_corto'),
             new JsonMap('abreviatura'),
-            new JsonMap('cct')
+            new JsonMap('cct'),
+            new JsonMap('tipo')
         ];
     }
 }
