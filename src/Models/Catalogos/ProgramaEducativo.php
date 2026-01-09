@@ -10,6 +10,7 @@ class ProgramaEducativo implements JsonMappedInterface
     public $id_programa;
     public $id_nivel;
     public $nombre;
+    public $acronimo;
     public $abreviatura;
 
     public static function getJsonMaps()
@@ -18,6 +19,7 @@ class ProgramaEducativo implements JsonMappedInterface
             new JsonMap('id_programa'),
             new JsonMap('id_nivel'),
             new JsonMap('nombre'),
+            new JsonMap('acronimo'),
             new JsonMap('abreviatura')
         ];
     }
