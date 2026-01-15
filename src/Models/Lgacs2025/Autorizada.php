@@ -1,6 +1,6 @@
 <?php
 
-namespace TecNM_DPII\CvuApi2Core\Models\Lgacs4;
+namespace TecNM_DPII\CvuApi2Core\Models\Lgacs2025;
 
 use Francerz\JsonTools\JsonMap;
 use Francerz\JsonTools\JsonMappedInterface;
