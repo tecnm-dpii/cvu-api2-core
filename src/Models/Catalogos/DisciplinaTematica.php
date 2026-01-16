@@ -5,7 +5,7 @@ namespace TecNM_DPII\CvuApi2Core\Models\Catalogos;
 use Francerz\JsonTools\JsonMap;
 use Francerz\JsonTools\JsonMappedInterface;
 
-class DisciplinaTematica extends JsonMappedInterface
+class DisciplinaTematica implements JsonMappedInterface
 {
     public $id_disciplina;
     public $id_area;
