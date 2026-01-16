@@ -3,7 +3,7 @@
 namespace TecNM_DPII\CvuApi2Core\Models\Catalogos;
 
 use Francerz\JsonTools\JsonMap;
-use Francerz\JSONTools\JsonMappedInterface;
+use Francerz\JsonTools\JsonMappedInterface;
 
 class AreaTematica implements JsonMappedInterface
 {
