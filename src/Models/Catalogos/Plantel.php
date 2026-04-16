@@ -20,6 +20,7 @@ class Plantel implements JsonMappedInterface
     public $nombre;
     public $nombre_corto;
     public $abreviatura;
+    public $acronimo;
     public $cct;
     public $tipo;
 
@@ -30,6 +31,7 @@ class Plantel implements JsonMappedInterface
             new JsonMap('nombre'),
             new JsonMap('nombre_corto'),
             new JsonMap('abreviatura'),
+            new JsonMap('acronimo'),
             new JsonMap('cct'),
             new JsonMap('tipo')
         ];
