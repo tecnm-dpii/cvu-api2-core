@@ -9,6 +9,8 @@
         }
     },
     "require": {
-        "francerz/json-tools": "^0.1.0"
+        "francerz/json-tools": "^0.1.0",
+        "francerz/php-power-data": "^0.1.39",
+        "psr/http-message": "^1.0"
     }
 }
